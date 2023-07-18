@@ -16,7 +16,6 @@ export default function Input(props) {
 
     function handleChange(event) {
         setData({
-            destination: platform,
             ...data,
             [event.target.ariaLabel]: event.target.value
         })

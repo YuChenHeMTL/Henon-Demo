@@ -16,17 +16,23 @@ export default function Home() {
 
   function handleSelect(text) {
     setDestination(text)
+    console.log(text)
     setData({})
   }
 
   async function handleSubmit(event, data) {
     event.preventDefault();
+    const reqData = {
+      destination: destination,
+      ...data
+    }
+
     const result = await fetch("/api/destination", {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
         },
-      body: JSON.stringify(data)
+      body: JSON.stringify(reqData)
     }).catch((err) => console.log(err))
     .then((res) => res.json());
     
@@ -50,6 +56,7 @@ export default function Home() {
       {Object.keys(data).length > 0 && (
         <Visualizer data={data} destination={destination}/>
       )}
+      <footer className={styles.footer}>Yuchen He, 2023</footer>
     </main>
   )
 }
