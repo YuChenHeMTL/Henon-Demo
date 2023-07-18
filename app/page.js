@@ -16,7 +16,6 @@ export default function Home() {
 
   function handleSelect(text) {
     setDestination(text)
-    console.log(text)
     setData({})
   }
 

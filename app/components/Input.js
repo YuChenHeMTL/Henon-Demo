@@ -35,6 +35,8 @@ export default function Input(props) {
                             </div>
                         )
                     })}
+                    <div dangerouslySetInnerHTML={{__html: props.data[platform].info}}>
+                    </div>
                     <button type="submit" className={`btn btn-primary ${styles.submit}`} onClick={(event) => props.handleSubmit(event, data)}>Submit</button>
                 </form>
             )}

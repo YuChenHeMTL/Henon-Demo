@@ -241,11 +241,13 @@
   align-items: 'center';
   margin-top: 1rem;
   text-align: center;
+  width: 25rem;
 }
 
 .inputItem,
 .inputText {
   margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .submit {

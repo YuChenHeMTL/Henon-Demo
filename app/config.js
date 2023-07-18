@@ -12,7 +12,8 @@ export const config = {
           label: 'accessToken',
           type: 'password'
         }
-      ]
+      ],
+      info: "To get your Realm ID and Access Token, follow <a href='https://developer.intuit.com/app/developer/qbo/docs/develop/authentication-and-authorization/oauth-2.0#step-1-get-the-access-token' target='_blank'>this guide</a>"
     },
     Tableau: {
       name: 'Tableau',
@@ -42,7 +43,8 @@ export const config = {
           label: 'siteID',
           type: 'text'
         }
-      ]
+      ],
+      info: "The Base URL can be accessed by copying the URL from your Tableau dashboard. \n The Site Name can be accessed in the URL of your Tableau dashboard after the 'site/' portion, and the Site ID can be found using this guide: <a href='https://help.tableau.com/current/online/en-us/sites_add.htm' target='_blank'>here</a>."
     },
     Bamboo: {
       name: 'Bamboo',
@@ -57,16 +59,18 @@ export const config = {
           label: 'apiKey',
           type: 'password'
         },
-      ]
+      ],
+      info: "To get your API Key, click on the Bamboo HR logo on the top right of your Bamboo HR dashboard, and click on 'API Keys'."
     },
     Hubspot: {
       name: 'Hubspot',
       fields: [
         {
-          name: 'Bearer Token',
+          name: 'Private App Token',
           label: 'bearerToken',
           type: 'text'
         },
-      ]
+      ],
+    info: "To get a new Private App Token, follow <a href='https://developers.hubspot.com/docs/api/private-apps' target='_blank'>this guide</a>"
     }
 }
