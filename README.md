@@ -24,7 +24,9 @@ I chose to implement the following features:
     - The user can input their Quickbooks credentials and get their trial balance listed in a table.
 - Tableau Workbook List:
     - The user can input their Tableau credentials as well as their server info to see a list of open workbooks.
-- BambooHR Employee List:
-    - The user can input their BambooHR credentials to see a list of employees, which include their name, their job title, and their email address.
+- BambooHRHR Employee List:
+    - The user can input their BambooHRHR credentials to see a list of employees, which include their name, their job title, and their email address.
 - Hubspot Deals List:
     - The user can input their Hubspot credentials to see a list of deals, which include their name, their amount, and their close date.
+
+If you have any trouble getting the login / API information required to use this app, please check out the tips section under each platform.

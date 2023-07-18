@@ -9,7 +9,7 @@ export async function POST(Request) {
     } else if (destination === "Tableau") {
         const workbooks = await getWorkbooks(body.username, body.password, body.siteName, body.baseUrl, body.siteID);
         return NextResponse.json({ data: JSON.stringify(workbooks)});
-    } else if (destination === "Bamboo") {
+    } else if (destination === "BambooHR") {
         const employees = await getEmployees(body.apiKey, body.subdomain);
         return NextResponse.json({ data: JSON.stringify(employees)});
     } else if (destination === "Hubspot") {

@@ -1,6 +1,6 @@
 import Table from 'react-bootstrap/Table';
 
-export default function Bamboo(props) {
+export default function BambooHR(props) {
     const data = JSON.parse(props.data);
     return (
         <div>

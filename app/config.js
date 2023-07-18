@@ -46,8 +46,8 @@ export const config = {
       ],
       info: "The Base URL can be accessed by copying the URL from your Tableau dashboard. \n The Site Name can be accessed in the URL of your Tableau dashboard after the 'site/' portion, and the Site ID can be found using this guide: <a href='https://help.tableau.com/current/online/en-us/sites_add.htm' target='_blank'>here</a>."
     },
-    Bamboo: {
-      name: 'Bamboo',
+    BambooHR: {
+      name: 'BambooHR',
       fields: [
         {
           name: 'Subdomain',
@@ -60,7 +60,7 @@ export const config = {
           type: 'password'
         },
       ],
-      info: "To get your API Key, click on the Bamboo HR logo on the top right of your Bamboo HR dashboard, and click on 'API Keys'."
+      info: "To get your API Key, click on the BambooHR logo on the top right of your BambooHR dashboard, and click on 'API Keys'."
     },
     Hubspot: {
       name: 'Hubspot',
