@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 6rem;
-  min-height: 100vh;
+  /* min-height: 100vh; */
 }
 
 .description {
@@ -226,4 +226,38 @@
   to {
     transform: rotate(0deg);
   }
+}
+
+.inputWrap {
+  height: 100%;
+  display: 'flex';
+  justify-content: 'center';
+  align-items: 'center';
+  text-align: center;
+}
+
+.formWrap {
+  display: 'flex';
+  justify-content: 'center';
+  align-items: 'center';
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.inputItem,
+.inputText {
+  margin-top: 0.5rem;
+}
+
+.submit {
+  margin-top: 1rem;
+  align-items: center;
+}
+
+.visualizer {
+  margin-top: 1rem;
+}
+
+.title {
+  margin-bottom: 2rem;
 }
